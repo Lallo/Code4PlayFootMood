@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/borderitem" android:layout_gravity="center_vertical|center_horizontal" android:gravity="center_vertical|center_horizontal" android:padding="10dp">
+
+    <ToggleButton
+        android:id="@+id/toggleButtonConnect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/bottonetest" />
+
+    <TextView
+        android:id="@+id/textX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SensorX"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/foreground" android:paddingBottom="10px"/>
+
+    <TextView
+        android:id="@+id/textY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10px"
+        android:text="SensorY"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/foreground" />
+
+    <TextView
+        android:id="@+id/textZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SensorZ"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/foreground" android:paddingBottom="10px"/>
+
+    <TextView
+        android:id="@+id/textP0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P0"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/foreground" android:paddingBottom="10px"/>
+
+    <TextView
+        android:id="@+id/textP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P1"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/foreground"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:padding="10px">
+
+        <TextView
+            android:id="@+id/textSteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/foreground"
+            android:gravity="center_vertical|center_horizontal" android:textSize="32dp" android:padding="20dp"/>
+
+        <Button
+            android:id="@+id/buttonAzzera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Azzera" />
+
+        <TextView
+            android:id="@+id/textStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:padding="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

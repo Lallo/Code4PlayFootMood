@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"><PreferenceScreen android:title="@string/pref_server_configuration_screen"><EditTextPreference android:summary="@string/pref_server_ip_content" android:title="@string/pref_server_ip_title" android:key="pref_server_ip" android:defaultValue="192.168.1.1"/>
+
+<EditTextPreference android:summary="@string/pref_server_port_content" android:title="@string/pref_server_port_title" android:key="pref_server_port" android:defaultValue="4444"/>
+</PreferenceScreen><PreferenceScreen android:title="@string/pref_comandi_configuration_screen">
+    <PreferenceCategory android:title="@string/pref_comando_1_title">
+        <EditTextPreference android:title="@string/pref_comando_button_title" android:key="pref_comando_button_1" android:defaultValue="@string/bottonetest"/>
+        <EditTextPreference android:title="@string/pref_comando_comando_title" android:key="pref_comando_comando_1"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_comando_2_title">
+        <EditTextPreference android:title="@string/pref_comando_button_title" android:key="pref_comando_button_2" android:defaultValue="@string/bottonetest"/>
+        <EditTextPreference android:title="@string/pref_comando_comando_title" android:key="pref_comando_comando_2"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_comando_3_title">
+        <EditTextPreference android:title="@string/pref_comando_button_title" android:key="pref_comando_button_3" android:defaultValue="@string/bottonetest"/>
+        <EditTextPreference android:title="@string/pref_comando_comando_title" android:key="pref_comando_comando_3"/>
+    </PreferenceCategory> 
+    <PreferenceCategory android:title="@string/pref_comando_4_title">
+        <EditTextPreference android:title="@string/pref_comando_button_title" android:key="pref_comando_button_4" android:defaultValue="@string/bottonetest"/>
+        <EditTextPreference android:title="@string/pref_comando_comando_title" android:key="pref_comando_comando_4"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_comando_5_title">
+        <EditTextPreference android:title="@string/pref_comando_button_title" android:key="pref_comando_button_5" android:defaultValue="@string/bottonetest"/>
+        <EditTextPreference android:title="@string/pref_comando_comando_title" android:key="pref_comando_comando_5"/>
+    </PreferenceCategory>           
+</PreferenceScreen>
+    
+
+
+    
+
+</PreferenceScreen>
